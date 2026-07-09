@@ -14,7 +14,16 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#111;
+
+    background:
+        linear-gradient(rgba(0,0,0,.88), rgba(0,0,0,.88)),
+        url("img/gym.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+
     color:white;
     line-height:1.6;
 }
@@ -38,13 +47,20 @@ img{
 =========================== */
 
 header{
-    background:#000;
+    background:rgba(0,0,0,.80);
+    backdrop-filter:blur(5px);
+
     padding:20px 8%;
     display:flex;
     justify-content:space-between;
     align-items:center;
     flex-wrap:wrap;
+
     border-bottom:3px solid #ff2d2d;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 header h1{
@@ -108,15 +124,17 @@ section p{
 }
 
 #servicios li{
-    background:#1c1c1c;
+    background:rgba(28,28,28,.85);
+    backdrop-filter:blur(5px);
     padding:25px;
     border-radius:10px;
     transition:.3s;
+    box-shadow:0 0 15px rgba(0,0,0,.5);
 }
 
 #servicios li:hover{
     transform:translateY(-8px);
-    background:#252525;
+    background:rgba(40,40,40,.90);
 }
 
 #servicios h3{
@@ -140,7 +158,8 @@ section p{
 table{
     width:100%;
     border-collapse:collapse;
-    background:#1c1c1c;
+    background:rgba(28,28,28,.90);
+    box-shadow:0 0 20px rgba(0,0,0,.5);
 }
 
 th{
@@ -177,7 +196,7 @@ tr:hover{
 =========================== */
 
 footer{
-    background:#000;
+    background:rgba(0,0,0,.85);
     text-align:center;
     padding:40px 8%;
     border-top:3px solid #ff2d2d;
