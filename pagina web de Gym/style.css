@@ -180,6 +180,98 @@ tr:hover{
     font-weight:bold;
     color:#ff2d2d;
 }
+/* ===========================
+   INSCRIPCIÓN
+=========================== */
+
+.inscripcion{
+    background:rgba(28,28,28,.85);
+    backdrop-filter:blur(5px);
+    padding:70px 8%;
+}
+
+.inscripcion h2{
+    font-size:2.2rem;
+    color:#ff2d2d;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.inscripcion p{
+    color:white;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.inscripcion form{
+    max-width:700px;
+    margin:auto;
+    background:rgba(20,20,20,.95);
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+.campo{
+    margin-bottom:20px;
+    text-align:left;
+}
+
+.campo label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:8px;
+    color:white;
+}
+
+.campo input,
+.campo select,
+.campo textarea{
+    width:100%;
+    padding:14px;
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #555;
+    border-radius:8px;
+    font-size:16px;
+    transition:.3s;
+   .inscripcion form:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 30px rgba(255,45,45,.25);
+}
+}
+
+.campo input::placeholder,
+.campo textarea::placeholder{
+    color:#bdbdbd;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus{
+    outline:none;
+    border-color:#ff2d2d;
+    box-shadow:0 0 10px rgba(255,45,45,.5);
+}
+
+.inscripcion button{
+    width:100%;
+    padding:15px;
+    background:#ff2d2d;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.inscripcion button:hover{
+    background:#d10000;
+    transform:scale(1.02);
+    box-shadow:0 0 15px rgba(255,45,45,.5);
+}
 
 /* ===========================
    VISÍTANOS
