@@ -1,233 +1,232 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DARK·GYM</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARK·GYM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Encabezado hecho por Samuel Elias Guerrero Del Villar LR-2024-00097 -->
-<header>
-    <h1>DARK·GYM</h1>
+    <!-- Encabezado hecho por Samuel Elias Guerrero Del Villar LR-2024-00097 -->
+    <header>
+        <h1><a class="h1" href="#inicio">DARK·GYM</a></h1>
 
-    <nav>
-        <ul>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#planes">Planes</a></li>
-            <li><a href="#visitanos">Visítanos</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#visitanos">Visítanos</a></li>
+            </ul>
+        </nav>
 
-    <p>
-        <a href="#inscripcion" class="btn">Únete hoy</a>
-    </p>
-</header>
+        <!-- Botón de modo Claro / Oscuro -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Cambiar modo de color">
+            <span class="icon-moon">🌙</span>
+            <span class="icon-sun" style="display: none;">☀️</span>
+        </button>
+    </header>
 
-  <!-- Pantalla principal hecha por Andrickson Junior González Astacio -->
+    <!-- Pantalla principal hecha por Andrickson Junior González Astacio -->
+    <section id="inicio">
+        <div>
+            <h2>Transforma tu cuerpo, supera tus límites</h2>
+            <p>
+                En DARK·GYM encontrarás equipos modernos,
+                entrenadores certificados y todo lo necesario
+                para alcanzar tus objetivos.
+            </p>
+            <button class="btn open-modal-btn">Comienza Hoy</button>
+        </div>
 
-<section id="inicio">
+        <div>
+            <img src="imagen/logo.png" alt="logo de una fenix" width="600">
+        </div>
+    </section>
 
-    <div>
+    <!-- Sección de servicios hecha por Juan Bautista Mercedes Molina Lr-2024-02270 -->
+    <section id="servicios">
+        <div>
+            <div>
+                <p>Instalaciones & programas</p>
+                <h2>Lo que ofrecemos</h2>
+            </div>
+            <ul>
+                <li>
+                    <h3>Pesas libres y máquinas</h3>
+                    <p>Barras, discos y equipos de última generación para fuerza e hipertrofia.</p>
+                </li>
+                <li>
+                    <h3>Entrenamiento funcional</h3>
+                    <p>Circuitos de alta intensidad y CrossFit guiados por entrenadores certificados.</p>
+                </li>
+                <li>
+                    <h3>Clases grupales</h3>
+                    <p>Spinning, boxeo y zumba todos los días, para todos los niveles.</p>
+                </li>
+                <li>
+                    <h3>Entrenamiento personalizado</h3>
+                    <p>Programas 1 a 1 diseñados según tu objetivo y tu condición física.</p>
+                </li>
+                <li>
+                    <h3>Asesoría nutricional</h3>
+                    <p>Planes de alimentación que acompañan tu progreso dentro y fuera del gym.</p>
+                </li>
+                <li>
+                    <h3>Zona de cardio</h3>
+                    <p>Cintas, bicicletas y remo frente a ventanales con luz natural.</p>
+                </li>
+                <li>
+                    <h3>Vestidores y casilleros</h3>
+                    <p>Duchas, lockers seguros y todo lo que necesitas antes y después de entrenar.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-        <h2>Transforma tu cuerpo, supera tus límites</h2>
+    <!-- Sección de Planes hecha por Franco De La Cruz Martinez Lr-2024-02495 -->
+    <section id="planes">
+        <h2>Planes y tarifas</h2>
+
+        <div class="mensaje">
+            Primer mes gratis para entrenamiento personal y en grupo
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Descripción</th>
+                    <th class="precio">Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pase Diario</td>
+                    <td>Acceso de un día a sala de pesas y cardio, ideal para visitantes.</td>
+                    <td class="precio">RD$250</td>
+                </tr>
+                <tr>
+                    <td>Plan Estudiante</td>
+                    <td>Acceso completo con descuento al presentar carnet estudiantil vigente.</td>
+                    <td class="precio">RD$1,200/mes</td>
+                </tr>
+                <tr>
+                    <td>Plan Básico</td>
+                    <td>Acceso a sala de pesas, máquinas y cardio en horario regular.</td>
+                    <td class="precio">RD$1,500/mes</td>
+                </tr>
+                <tr>
+                    <td>Plan Completo</td>
+                    <td>Acceso total a instalaciones más clases grupales ilimitadas.</td>
+                    <td class="precio">RD$2,200/mes</td>
+                </tr>
+                <tr>
+                    <td>Plan Elite</td>
+                    <td>Todo lo anterior más 4 sesiones mensuales de entrenamiento personalizado.</td>
+                    <td class="precio">RD$3,800/mes</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección Visítanos -->
+    <section id="visitanos">
+        <h2>Visítanos</h2>
 
         <p>
-            En DARK·GYM encontrarás equipos modernos,
-            entrenadores certificados y todo lo necesario
-            para alcanzar tus objetivos.
+            Estamos ubicados detrás de la universidad UFHEC para que puedas entrenar
+            en un ambiente moderno, seguro y equipado con tecnología de última generación.
         </p>
 
-        <a href="#inscripcion">Comienza Hoy</a>
+        <p><strong>Dirección:</strong> Avenida C. 2ª Rosario Torres, La Romana, República Dominicana.</p>
 
-    </div>
+        <p><strong>Horario:</strong></p>
+        <ul>
+            <li>Lunes a Viernes: 5:00 a.m. - 10:00 p.m.</li>
+            <li>Sábados: 7:00 a.m. - 8:00 p.m.</li>
+            <li>Domingos: 8:00 a.m. - 12:00 p.m.</li>
+        </ul>
 
-    <div>
-
-        <img src="img/gym.jpg"
-             alt="Persona entrenando en el gimnasio"
-             width="600">
-
-    </div>
-
-</section>
-  
-<!-- Seccion de servicios hecha por Juan Bautista Mercedes Molina Lr-2024-02270 -->
-<section id="servicios">
-  <div>
-    <div>
-      <p>Instalaciones &amp; programas</p>
-      <h2>Lo que ofrecemos</h2>
-    </div>
-    <ul>
-      <li>
-          <h3>Pesas libres y máquinas</h3>
-          <p>Barras, discos y equipos de última generación para fuerza e hipertrofia.</p>
-      </li>
-      <li>
-          <h3>Entrenamiento funcional</h3>
-          <p>Circuitos de alta intensidad y CrossFit guiados por entrenadores certificados.</p>
-      </li>
-      <li>
-          <h3>Clases grupales</h3>
-          <p>Spinning, boxeo y zumba todos los días, para todos los niveles.</p>
-      </li>
-      <li>
-          <h3>Entrenamiento personalizado</h3>
-          <p>Programas 1 a 1 diseñados según tu objetivo y tu condición física.</p>
-      </li>
-      <li>
-          <h3>Asesoría nutricional</h3>
-          <p>Planes de alimentación que acompañan tu progreso dentro y fuera del gym.</p>
-      </li>
-      <li>
-          <h3>Zona de cardio</h3>
-          <p>Cintas, bicicletas y remo frente a ventanales con luz natural.</p>
-      </li>
-      <li>
-          <h3>Vestidores y casilleros</h3>
-          <p>Duchas, lockers seguros y todo lo que necesitas antes y después de entrenar.</p>
-      </li>
-    </ul>
-  </div>
-</section>
-<section id="planes">
-
-<h2>Planes y tarifas</h2>
-
-    <div class="mensaje">
-        Primer mes gratis para entrenamiento personal y en grupo
-    </div>
-<!-- Seccion de ablas hecha por Franco De La Cruz Martinez Lr-2024-02495 -->
-    <table>
-        <tr>
-            <th>Servicio</th>
-            <th>Descripción</th>
-            <th class="precio">Precio</th>
-        </tr>
-
-        <tr>
-            <td>Pase Diario</td>
-            <td>Acceso de un día a sala de pesas y cardio, ideal para visitantes.</td>
-            <td class="precio">RD$250</td>
-        </tr>
-
-        <tr>
-            <td>Plan Estudiante</td>
-            <td>Acceso completo con descuento al presentar carnét estudiantil vigente.</td>
-            <td class="precio">RD$1,200/mes</td>
-        </tr>
-
-        <tr>
-            <td>Plan Básico</td>
-            <td>Acceso a sala de pesas, máquinas y cardio en horario regular.</td>
-            <td class="precio">RD$1,500/mes</td>
-        </tr>
-
-        <tr>
-            <td>Plan Completo</td>
-            <td>Acceso total a instalaciones más clases grupales ilimitadas.</td>
-            <td class="precio">RD$2,200/mes</td>
-        </tr>
-
-        <tr>
-            <td>Plan Elite</td>
-            <td>Todo lo anterior más 4 sesiones mensuales de entrenamiento personalizado.</td>
-            <td class="precio">RD$3,800/mes</td>
-        </tr>
-
-    </table>
-   </section>
-   <section id="visitanos">
-
-    <h2>Visítanos</h2>
-
-    <p>
-        Estamos ubicados detras de la universidad UFHEC  para que puedas entrenar
-        en un ambiente moderno, seguro y equipado con tecnología de
-       última generación.
-    </p>
-
-    <p><strong>Dirección:</strong> Avenida C. 2ª Rosario Torres, La Romana, República Dominicana.</p>
-
-    <p><strong>Horario:</strong></p>
-
-    <ul>
-        <li>Lunes a Viernes: 5:00 a.m. - 10:00 p.m.</li>
-        <li>Sábados: 7:00 a.m. - 8:00 p.m.</li>
-        <li>Domingos: 8:00 a.m. - 12:00 p.m.</li>
-    </ul>
-
-    <p>
-        ¡Te esperamos para que formes parte de la familia <strong>DARK·GYM</strong>!
-    </p>
-
-    <!--pie de pagina-->
-  </section> <!-- Fin de la sección Visítanos -->
-
-<!-- Sección de Inscripción -->
-<section id="inscripcion">
-
-    <h2>Inscríbete a DARK·GYM</h2>
-
-    <p>Completa el formulario para convertirte en miembro.</p>
-
-    <form action="#" method="post">
-
-        <label>Nombre Completo</label>
-        <input type="text" name="nombre" required>
-
-        <label>Correo Electrónico</label>
-        <input type="email" name="correo" required>
-
-        <label>Teléfono</label>
-        <input type="tel" name="telefono" required>
-
-        <label>Edad</label>
-        <input type="number" name="edad" required>
-
-        <label>Plan</label>
-        <select name="plan">
-            <option>Pase Diario</option>
-            <option>Plan Estudiante</option>
-            <option>Plan Básico</option>
-            <option>Plan Completo</option>
-            <option>Plan Elite</option>
-        </select>
-
-        <label>Objetivo</label>
-        <textarea rows="5"></textarea>
-
-        <button type="submit">Enviar inscripción</button>
-
-    </form>
-
-</section>
-
-<!-- Pie de página -->
-<footer>
-
-    <h4>DARK GYM</h4>
-
-    <section>
-        <h5>Dirección</h5>
-        <p>Avenida C. 2ª Rosario Torres, La Romana, República Dominicana.</p>
+        <p>
+            ¡Te esperamos para que formes parte de la familia <strong>DARK·GYM</strong>!
+        </p>
     </section>
 
-    <section>
-        <h6>Primera visita</h6>
-        <p>Trae ropa cómoda, agua y muchas ganas; lo demás lo ponemos nosotros.</p>
-    </section>
+    <!-- Modal de Inscripción (Ventana emergente en Pantalla Completa) -->
+    <div id="modal-inscripcion" class="modal-overlay">
+        <div class="modal-container">
+            <button class="close-btn" id="close-modal">&times;</button>
+            
+            <h2>Inscríbete a DARK·GYM</h2>
+            <p>Completa el formulario para convertirte en miembro.</p>
 
-    <p>
-        📞 <a href="tel:+18498029673">(849) 802-9673</a> |
-        ✉ <a href="mailto:eliasdelvillar5@gmail.com">eliasdelvillar5@gmail.com</a>
-    </p>
+            <form action="#" method="post" id="form-inscripcion">
+                <div class="campo">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
 
-    <p>&copy; 2026  DARK·GYM. Todos los derechos reservados.</p>
+                <div class="campo">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
 
-    <!--esta terminado el pie de pagina -->
-         
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="campo">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+
+                <div class="campo">
+                    <label for="plan">Plan</label>
+                    <select id="plan" name="plan">
+                        <option>Pase Diario</option>
+                        <option>Plan Estudiante</option>
+                        <option>Plan Básico</option>
+                        <option>Plan Completo</option>
+                        <option>Plan Elite</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="objetivo">Objetivo</label>
+                    <textarea id="objetivo" name="objetivo" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Enviar inscripción</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <h4>DARK GYM</h4>
+
+        <section>
+            <h5>Dirección</h5>
+            <p>Avenida C. 2ª Rosario Torres, La Romana, República Dominicana.</p>
+        </section>
+
+        <section>
+            <h6>Primera visita</h6>
+            <p>Trae ropa cómoda, agua y muchas ganas; lo demás lo ponemos nosotros.</p>
+        </section>
+
+        <p>
+            📞 <a href="tel:+18498029673">(849) 802-9673</a> |
+            ✉ <a href="mailto:eliasdelvillar5@gmail.com">eliasdelvillar5@gmail.com</a>
+        </p>
+
+        <p> 2026 DARK·GYM. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Script JavaScript para activar la funcionalidad -->
+    <script src="script.js"></script>
 </body>
 </html>
+
+<!--juan estuvo por aqui -->
