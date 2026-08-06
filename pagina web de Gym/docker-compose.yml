@@ -1,0 +1,7 @@
+services:
+  gym-web:
+    build: .
+    container_name: gym_pagina_web
+    ports:
+      - "8080:80"
+    restart: always
